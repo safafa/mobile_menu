@@ -11,9 +11,21 @@
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" class="menu-bars" id="burger">
         <i class="fas fa-bars"></i>
       </button>
+      <nav class="mobile-nav">
+        <ul>
+          <li><i id="close" class="fa fa-times"></i></li> 
+          <li><a class="nav-link" href="#projects">Portoflio</a></li>
+          <li><a class="nav-link" href="#about-me">About</a></li>
+          <li>
+            <a class="nav-link" href="#contact"
+              >Contact <i class="far fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
       <nav id="desktop-nav">
         <ul>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
@@ -442,5 +454,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
