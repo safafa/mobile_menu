@@ -2,6 +2,7 @@ const burgerButton = document.getElementById('burger');
 const closeButton = document.getElementById('close');
 const mobileNav = document.querySelector('.mobile-nav');
 const logo = document.getElementById('logo');
+const link = document.querySelector('.nav-link');
 
 burgerButton.addEventListener('click', () => {
   mobileNav.style.display = 'flex';
@@ -10,6 +11,12 @@ burgerButton.addEventListener('click', () => {
 });
 
 closeButton.addEventListener('click', () => {
+  mobileNav.style.display = 'none';
+  logo.style.display = 'block';
+  burgerButton.style.display = 'block';
+});
+
+link.addEventListener('click', () => {
   mobileNav.style.display = 'none';
   logo.style.display = 'block';
   burgerButton.style.display = 'block';
