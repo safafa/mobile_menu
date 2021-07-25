@@ -1,15 +1,11 @@
 const burgerButton = document.getElementById('burger');
-const closeButton = document.getElementById("close");
-const mobileNav = document.querySelector(".mobile-nav");
+const closeButton = document.getElementById('close');
+const mobileNav = document.querySelector('.mobile-nav');
 
-burgerButton.addEventListener("click",()=>{
-    mobileNav.style.display="flex";
+burgerButton.addEventListener('click', () => {
+  mobileNav.style.display = 'flex';    
+});
 
-    
-})
-
-closeButton.addEventListener("click", ()=>{
-    mobileNav.style.display="none";
-
-
-})
+closeButton.addEventListener('click', () => {
+  mobileNav.style.display = 'none';
+});
