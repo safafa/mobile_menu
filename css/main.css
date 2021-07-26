@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -417,7 +418,15 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+.mobile-nav {
+  display: none;
+}
+
 @media all and (min-width: 720px) {
+  .mobile-nav {
+    display: none;
+  }
+
   .top-social {
     flex-direction: column;
     position: absolute;
